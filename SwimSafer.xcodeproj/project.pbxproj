@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		85F5CDF91B1AF713007DD9B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5CDF81B1AF713007DD9B1 /* main.m */; };
 		85F5CDFC1B1AF713007DD9B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5CDFB1B1AF713007DD9B1 /* AppDelegate.m */; };
-		85F5CDFF1B1AF713007DD9B1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5CDFE1B1AF713007DD9B1 /* FirstViewController.m */; };
 		85F5CE021B1AF713007DD9B1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5CE011B1AF713007DD9B1 /* SecondViewController.m */; };
 		85F5CE051B1AF713007DD9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F5CE031B1AF713007DD9B1 /* Main.storyboard */; };
 		85F5CE071B1AF713007DD9B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F5CE061B1AF713007DD9B1 /* Images.xcassets */; };
 		85F5CE0A1B1AF713007DD9B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F5CE081B1AF713007DD9B1 /* LaunchScreen.xib */; };
 		85F5CE161B1AF713007DD9B1 /* SwimSaferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5CE151B1AF713007DD9B1 /* SwimSaferTests.m */; };
+		85F5CE261B1B18FC007DD9B1 /* DevicesSearchingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5CE251B1B18FC007DD9B1 /* DevicesSearchingTableViewController.m */; };
+		85F5CE291B1B193C007DD9B1 /* DevicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5CE281B1B193C007DD9B1 /* DevicesTableViewController.m */; };
+		85F5CE2C1B1B1AA4007DD9B1 /* SerialGATT.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F5CE2B1B1B1AA4007DD9B1 /* SerialGATT.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +35,6 @@
 		85F5CDF81B1AF713007DD9B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85F5CDFA1B1AF713007DD9B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85F5CDFB1B1AF713007DD9B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		85F5CDFD1B1AF713007DD9B1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		85F5CDFE1B1AF713007DD9B1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		85F5CE001B1AF713007DD9B1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		85F5CE011B1AF713007DD9B1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		85F5CE041B1AF713007DD9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +43,12 @@
 		85F5CE0F1B1AF713007DD9B1 /* SwimSaferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimSaferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F5CE141B1AF713007DD9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85F5CE151B1AF713007DD9B1 /* SwimSaferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwimSaferTests.m; sourceTree = "<group>"; };
+		85F5CE241B1B18FC007DD9B1 /* DevicesSearchingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevicesSearchingTableViewController.h; sourceTree = "<group>"; };
+		85F5CE251B1B18FC007DD9B1 /* DevicesSearchingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevicesSearchingTableViewController.m; sourceTree = "<group>"; };
+		85F5CE271B1B193C007DD9B1 /* DevicesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevicesTableViewController.h; sourceTree = "<group>"; };
+		85F5CE281B1B193C007DD9B1 /* DevicesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevicesTableViewController.m; sourceTree = "<group>"; };
+		85F5CE2A1B1B1AA4007DD9B1 /* SerialGATT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialGATT.h; sourceTree = "<group>"; };
+		85F5CE2B1B1B1AA4007DD9B1 /* SerialGATT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialGATT.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +92,14 @@
 			children = (
 				85F5CDFA1B1AF713007DD9B1 /* AppDelegate.h */,
 				85F5CDFB1B1AF713007DD9B1 /* AppDelegate.m */,
-				85F5CDFD1B1AF713007DD9B1 /* FirstViewController.h */,
-				85F5CDFE1B1AF713007DD9B1 /* FirstViewController.m */,
+				85F5CE271B1B193C007DD9B1 /* DevicesTableViewController.h */,
+				85F5CE281B1B193C007DD9B1 /* DevicesTableViewController.m */,
 				85F5CE001B1AF713007DD9B1 /* SecondViewController.h */,
 				85F5CE011B1AF713007DD9B1 /* SecondViewController.m */,
+				85F5CE241B1B18FC007DD9B1 /* DevicesSearchingTableViewController.h */,
+				85F5CE251B1B18FC007DD9B1 /* DevicesSearchingTableViewController.m */,
+				85F5CE2A1B1B1AA4007DD9B1 /* SerialGATT.h */,
+				85F5CE2B1B1B1AA4007DD9B1 /* SerialGATT.m */,
 				85F5CE031B1AF713007DD9B1 /* Main.storyboard */,
 				85F5CE061B1AF713007DD9B1 /* Images.xcassets */,
 				85F5CE081B1AF713007DD9B1 /* LaunchScreen.xib */,
@@ -224,9 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F5CE291B1B193C007DD9B1 /* DevicesTableViewController.m in Sources */,
+				85F5CE2C1B1B1AA4007DD9B1 /* SerialGATT.m in Sources */,
+				85F5CE261B1B18FC007DD9B1 /* DevicesSearchingTableViewController.m in Sources */,
 				85F5CE021B1AF713007DD9B1 /* SecondViewController.m in Sources */,
 				85F5CDFC1B1AF713007DD9B1 /* AppDelegate.m in Sources */,
-				85F5CDFF1B1AF713007DD9B1 /* FirstViewController.m in Sources */,
 				85F5CDF91B1AF713007DD9B1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +434,7 @@
 				85F5CE1B1B1AF713007DD9B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85F5CE1C1B1AF713007DD9B1 /* Build configuration list for PBXNativeTarget "SwimSaferTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +443,7 @@
 				85F5CE1E1B1AF713007DD9B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

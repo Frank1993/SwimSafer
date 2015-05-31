@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  DevicesSearchingTableViewController.h
 //  SwimSafer
 //
 //  Created by hupengcheng  on 15/5/31.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface DevicesSearchingTableViewController : UITableViewController
 
 @end
-

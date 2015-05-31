@@ -80,16 +80,16 @@
             </objects>
             <point key="canvasLocation" x="-300" y="-44"/>
         </scene>
-        <!--Title-->
+        <!--设备-->
         <scene sceneID="zMs-Z5-Lg2">
             <objects>
-                <tableViewController id="zC4-GL-48s" sceneMemberID="viewController">
+                <tableViewController id="zC4-GL-48s" customClass="DevicesTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Yad-NE-yjX">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="WbE-oB-a4H">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="devices" id="WbE-oB-a4H">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WbE-oB-a4H" id="AvS-tG-J7M">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -101,9 +101,9 @@
                             <outlet property="delegate" destination="zC4-GL-48s" id="ZuP-K0-TO1"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="uhj-CU-jCw"/>
-                    <navigationItem key="navigationItem" title="Title" id="UUJ-hv-bVm">
-                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="Efa-bg-L0q">
+                    <tabBarItem key="tabBarItem" title="设备" id="uhj-CU-jCw"/>
+                    <navigationItem key="navigationItem" title="设备" id="UUJ-hv-bVm">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Efa-bg-L0q">
                             <connections>
                                 <segue destination="uFf-y3-Xde" kind="show" id="yhL-b5-ltI"/>
                             </connections>
@@ -115,16 +115,16 @@
             </objects>
             <point key="canvasLocation" x="552" y="-410"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Devices Searching Table View Controller-->
         <scene sceneID="MSm-np-qMo">
             <objects>
-                <tableViewController id="uFf-y3-Xde" sceneMemberID="viewController">
+                <tableViewController id="uFf-y3-Xde" customClass="DevicesSearchingTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="duW-Nh-NGP">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ciB-qU-PLn">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="searchingDevices" id="ciB-qU-PLn">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ciB-qU-PLn" id="cYf-VI-QbR">
                                     <autoresizingMask key="autoresizingMask"/>
